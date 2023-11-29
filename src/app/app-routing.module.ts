@@ -7,7 +7,7 @@ import { ExploradorComponent } from './pages/ventas/explorador/explorador.compon
 const routes: Routes = [
   { path: 'dashboard', component: InicioComponent },
   { path: 'ventas', component: ExploradorComponent },
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: '/ventas', pathMatch: 'full' },
 
 ];
 

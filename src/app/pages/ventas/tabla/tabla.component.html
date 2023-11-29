@@ -25,7 +25,7 @@
         <td> <span class="tag">{{ pelicula.nombre }}</span> </td>
         <td>{{ pelicula.franquicia }}</td>
         <td>{{ pelicula.lugar }}</td>
-        <td>{{ pelicula.fecha }}</td>
+        <td>{{ pelicula.fecha | date }}</td>
         <td>{{ pelicula.descripcion }}</td>
         <td>{{ pelicula.precio | currency }}</td>
         <td>{{ pelicula.cantidad }}</td>
